@@ -10,3 +10,12 @@ width: 100%;
 background-color: rgba(0, 0, 0, 0);
 background-image: linear-gradient(rgb(111,99,78) 0%, rgb(23, 23, 23) 100%), linear-gradient(180deg, #6a634e 100%, #171717 100%);
 } */
+@layer utilities {
+    .flex-images {
+        @apply md:flex-row md:flex-wrap lg:gap-5 lg:border-none;
+    }
+    .flex-items{
+        @apply md:basis-1/2 flex-grow flex-shrink-0 lg:rounded-lg lg:basis-[22%] lg:border lg:border-red-100;
+    }
+    
+}
